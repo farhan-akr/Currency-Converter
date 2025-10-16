@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;600&display=swap");
+
+body {
+  background-color: aliceblue;
+}
+
+nav {
+  font-family: "Noto Sans", sans-serif;
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+}
+
+div.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 23px;
+}
+
+nav ul li {
+  margin: 0 23px;
+  list-style: none;
+}
+
+.container {
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+footer {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
